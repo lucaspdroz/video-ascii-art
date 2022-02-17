@@ -1,0 +1,32 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: "Courier";
+  color: #fff;
+  font-size: 12pt;
+  line-height: 10pt;
+}
+
+body {
+  width: 100vw;
+  display: grid;
+  justify-items: center;
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: rgb(143, 27, 211);
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
